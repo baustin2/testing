@@ -2,7 +2,9 @@
    "summaries": [
        {
            "title": "Week 10 Summary",
-           "body": "This week, I wanted to see what else I could with JSON and HTML.  I located a free JSON server that accesses my GIT repository to serve this simple JSON file with this summary data.  This data was then appended to an HTML table. For future logs/summaries, I can simply add new objects to this JSON file.",
+           "body": "This week, I wanted to see what else I could with JSON and HTML.  I located a free JSON server that accesses my GIT repository to serve this simple JSON file with this summary data.  This data was then appended to an HTML table. For future logs/summaries, I can simply add new objects to this JSON file."\n
+            "In week 10, we began to dive into the world of Angular.  There are many pieces that make up an Angular application.  The following are short descriptions of these pieces.  The View is what the user sees (HTML).  The controller provides data for the view and facilitates UI.  IE - A list of restaurants and the ability to order from one.  Controllers pass data to view using $scope - $scope.listofplaces or using controllerAs - <div ng-controller="MainCtrl as main">Hello {{ main.location }}!</div>.  Directives such as ng-repeat, looping, or ng-click, action after click are used.   Services contain logic and HTTP requests."\n
+            "In comparing these Angular components.  to say jQuery components, there are some key advantages with Angular.  The AppComponent simply pulls data into a template, while jQuery requires a table to be coded and generated.  The AppComponent relies on a separate model and view.  In Angular, we can make changes in the model and it will update the view.  jQuery requires changes to both the JS and HTML.  Angular is also faster, by generating DOM changes directly, unlike jQuery which generates HTML that has to then be parsed by the browser.  With Angular, typically only the changed HTML will need to be updated in the DOM, and will not need to be parsed.",
            "references": "Reporter"
         }
    ]
