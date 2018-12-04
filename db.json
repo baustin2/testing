@@ -4,9 +4,7 @@
            "title": "Week 10 Summary",
            "body": "This week, I wanted to see what else I could with JSON and HTML.  I located a free JSON server that accesses
             my GIT repository to serve this simple JSON file with this summary data.  This data was then appended to an HTML table.
-            For future logs/summaries, I can simply add new objects to this JSON file.
-          
-             ",
+            For future logs/summaries, I can simply add new objects to this JSON file.",
            "references": "Reporter"
         }
    ]
